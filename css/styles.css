@@ -2,7 +2,7 @@
     font-family: font1;
     src: url(../font/miso-bold.ttf);
 }
-
+/* ------------------------------Navigace-----------------------------*/
 .navigace {
     width: 100%;
     height: 60px;
@@ -58,4 +58,69 @@ a {
 
 span {
     display: inline-block;
+}
+
+/*----------------------------Obsah-1------------------------*/
+
+.obsah1 {
+    background-color: #00bff3;
+    background-image: url("../img/ground.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+}
+
+.obsah-cont1 {
+    background-image: url("../img/interactive-resume.png");
+    width: 1200px;
+    height: 600px;
+}
+
+.obsah-text1 {
+    margin-top: 170px;
+    width: 360px;
+}
+
+.obsah-text1 h2 {
+    font-family: font1, serif;
+    color: white;
+    font-size: 70px;
+    line-height: 55px;
+}
+
+.obsah-text1 p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Arial, serif;
+}
+
+.tlacitko {
+    padding: 12px 0;
+    border:2px solid white;
+    border-radius: 5px;
+    width: 150px;
+    font: 14px Arial, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/*----------------------Obsah-2--------------------*/
+.obsah2 {
+    background-color: #f9bf3b;
+    display: flex;
+    justify-content: center;
+}
+
+.obsah-cont2 {
+    background-image: url("../img/illustration-portfolio.png");
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: right;
 }
