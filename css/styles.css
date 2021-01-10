@@ -36,23 +36,23 @@ a {
     margin-right: 8px;
 }
 
-#fb {
+.fb {
     background-image: url("../img/icon-facebook.png");
 }
 
-#tw {
+.tw {
     background-image: url("../img/icon-twitter.png");
 }
 
-#db {
+.db {
     background-image: url("../img/icon-dribbble.png");
 }
 
-#ln {
+.ln {
     background-image: url("../img/icon-linkedin.png");
 }
 
-#em {
+.em {
     background-image: url("../img/icon-email.png");
 }
 
@@ -149,3 +149,48 @@ span {
     height: 600px;
 }
 
+/*-------------------------Obsah4----------------------------------*/
+.obsah4 {
+    width: 100%;
+    background-color: #505050;
+    display: flex;
+    justify-content: center;
+}
+
+.obsah-cont4 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.okno {
+    margin: 40px 60px 40px 0;
+    width: 360px;
+}
+
+.okno h2 {
+    font:30px font1, serif;
+    color: white;
+    margin-bottom:20px;
+}
+
+.okno img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.okno p {
+    font:14px Arial, serif;
+    color: #cccccc;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.okno #ukazka {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside;
+}
