@@ -124,3 +124,28 @@ span {
     display: flex;
     justify-content: right;
 }
+
+/*-----------------------Obsah3---------------------------*/
+.obsah3 {
+    background-image: url("../img/design-portfolio-background.jpg");
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.mraky {
+    background-image: url("../img/design-portfolio-cloud.png");
+    width: 100%;
+    height: 228px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-position: center;
+}
+.obsah-cont3 {
+    background-image: url("../img/design-portfolio.jpg");
+    position: relative;
+    width: 1200px;
+    height: 600px;
+}
+
